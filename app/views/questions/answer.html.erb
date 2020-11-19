@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="text question">
+    <p>
+      <strong><%= params[:question] %></strong><br>
+      <div class="identifier"><i > - You</i></div>
+    </p>
+  </div>
+  <br>
+  <div class="text answer">
+    <p>
+      <strong><%= @answer %></strong><br>
+      <div class="identifier"><i > - Stupid coach</i></div>
+    </p>
+  </div>
+  <br>
+  <div class="text-center">
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+</div>
